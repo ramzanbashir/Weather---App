@@ -1,0 +1,64 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body class="container-fluid bg-dark text-light">
+    <nav class="navbar bg-dark navbar-expand mt-1">
+  <div class="container-fluid mt-0 mb-0 pt-0 pb-0">
+    <a class="navbar-brand" href="#">
+      <img src="images/cloudy (1).png" alt="Logo" width="50" height="44" class="d-inline-block align-text navimg">
+      <span class="text-warning fontw">Weather</span><span class="text-info fontw">App</span>
+    </a>
+      <div class="d-flex" role="search">
+         <input class="form-control me-2 " id="search" type="search" placeholder="Search" aria-label="Search"/>
+          <button onclick="getData()" class="btn btn-outline-success" type="submit">Search</button>
+      </div>
+  </div>
+</nav>
+<hr>
+<div id="box" class="container-fluid bg-dark text-light align-text-center">
+    
+
+</div>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-dark text-light">
+
+  <nav class="navbar navbar-expand-lg bg-black border-bottom border-secondary shadow-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center text-light" href="#">
+        <img src="images/cloudy (1).png" alt="Logo" width="45" height="40" class="me-2"/>
+        <span class="text-warning fw-semibold fs-4">Weather</span><span class="text-info fw-semibold fs-4">App</span>
+      </a>
+      <div class="d-flex ms-auto">
+        <input class="form-control me-2" id="search" type="search" placeholder="Search city..."/>
+        <button onclick="getData()" class="btn btn-outline-info">Search</button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-5 d-flex justify-content-center" id="box"></div>
+
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+!
